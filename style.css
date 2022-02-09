@@ -1,0 +1,488 @@
+html {
+    background-color: #252525; /* Bounce color at the top and bottom of the browser */
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F6F5;
+    color: #000000;
+}
+span {
+    font-weight: bolder;
+}
+.no-drag {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.red-button {
+    background-color: #f80000;
+    color: white;
+}
+.red-button:hover {
+    color: white;
+    background-color: #ffffff;
+}
+.green-button {
+    background-color: #3BBE54;
+    color: white;
+}
+.green-button:hover {
+    background-color: #47d060;
+    color: white;
+}
+.purple-button {
+    background-color: purple;
+    color: white;
+}
+#twitter-button {
+    background-color: #1DA1F2;
+    color: white;
+}
+#twitter-button:hover {
+    background-color: #60c3ff;
+}
+#ticket-button {
+    background-color: #3BBE54;
+    color: white;
+}
+#ticket-button:hover {
+    background-color: rgb(90, 240, 118);
+}
+#discord-button {
+    background-color: #7289DA;
+    color: white;
+}
+#discord-button:hover {
+    background-color: rgb(150, 170, 243);
+}
+.gray-button {
+    background-color: #F5F6F5;
+    color: black;
+}
+nav {
+    background-color: #141318;
+    color: white;
+}
+footer {
+    /* height: 65px; */
+    background-color: #262525;
+}
+.footer-contents {
+    color: white;
+    opacity: 0.2;
+}
+h1 {
+    font-weight: 100;
+}
+.lunar-header {
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+}
+/* Features h2 */
+#features h2 {
+    margin-bottom: 3px;
+}
+/* Features h5 */
+#features h5 {
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+#footer a {
+    color: white;
+}
+#footer a:hover {
+    color: rgb(204, 204, 204);
+    text-decoration: none !important;
+}
+.card {
+    width: 100%;
+    border: 0px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.13);
+}
+.thing2 {
+    font-weight: 500;
+    letter-spacing: 1.25px;
+}
+.card .red-button {
+    font-weight: 500;
+    border-radius: 0px;
+    letter-spacing: 1.25px;
+}
+.nav-drop {
+    -webkit-box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.7);
+    box-shadow: 0px 2px 23px 0px rgba(0,0,0,0.7);
+}
+.thing1 {
+    text-shadow: 0px 1.4px 1px rgba(0, 0, 0, 0.775);
+}
+.outlined-statistic {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 100%;
+    text-align: center;
+}
+.active {
+    border-bottom: 4px solid #ffffff !important;
+    margin-top: 4px;
+}
+#nav_links a:not(.active) {
+    border-bottom: 4px solid transparent !important;
+    margin-top: 4px;
+}
+.purchase-btn {
+    background-color: #3BBE54;
+    color: white;
+}
+.statistic-header {
+    font-size: 1.45em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.statistic-subheader {
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 0.85em;
+}
+#home-container {
+    color: white;
+}
+#home-title {
+    text-align: center;
+    max-width: 350px;
+}
+#home-title h1 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+#home-title h5 {
+    font-weight: 200;
+    flex: 0 0 0;
+}
+.removeBottomPadding {
+    margin-bottom: 0px;
+}
+.category {
+    object-fit: cover;
+    height: 220px;
+}
+.card-body > ul {
+    list-style-type: circle;
+}
+.hide-div {
+    display: none;
+}
+#faq-links {
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 1rem;
+}
+#faq-links i {
+    margin-right: 0.25rem;
+}
+#accordionFAQ button {
+    text-align: left;
+    color: #333333;
+}
+#accordionFAQ .card-header {
+    background-color: white;
+}
+#accordionFAQ .card {
+    border-radius: 0.2rem;
+}
+.fix-bg {
+    background-size: cover;
+}
+.vl {
+    border-left: 4px solid #515151;
+    height: 15px;
+    width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-header > button {
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 0px;
+    width: 100%;
+    text-decoration: none !important;
+}
+.card-header > button:hover {
+    text-decoration: none;
+}
+.card-header > button:active {
+    text-decoration: none;
+}
+.card-header > button:focus {
+    text-decoration: none;
+}
+.card-header {
+    border-bottom: none !important;
+}
+.more-less {
+    float: right;
+    color: #212121;
+}
+a {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+}
+#footer-middle a {
+    text-decoration: none;
+}
+#footer-right div {
+    text-align: right;
+}
+#nav_links a:hover {
+    background-color: #262626;
+}
+#nav_links a {
+    border-radius: 0px !important;
+    color: white !important;
+}
+@media only screen and (min-width: 768px) {
+    .navbar {
+        padding-top: 1;
+        padding-bottom:0;
+    }
+
+    .nav-pills .nav-link {
+        padding-top: 16px;
+        padding-bottom: 15px;
+        border-radius: 2;
+    }
+}
+.package .h4 {
+    font-size: 1rem;
+}
+.category-countdown {
+    color: white !important;
+    border-radius: 5px;
+    background-color: #fa0000 !important;
+}
+/* Tebex Fixes */
+body {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+.tebexLogin {
+    position: relative !important;
+    top: 0px !important;
+}
+.hide {
+    display: none;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.cat > a:hover {
+    text-decoration: none !important;
+}
+
+
+.form-control {
+    border-color: #e7e7e7 !important;
+    background-color: #fcfcfc !important;
+}
+.submit-form {
+    color: white !important;
+    background-color: #428ad6;
+    border-color: #428ad6;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    padding: 0px;
+}
+.navbar-brand img {
+    height: 90px;
+    margin-right: 1rem;
+}
+.install-instructions {
+    text-align: center;
+    justify-content: center;
+}
+.install-instructions h4 {
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.install-entry {
+    display: inline-block;
+    width: 100%;
+}
+.header-container {
+    color: white;
+    text-align: center;
+}
+.header-container h5 {
+    font-weight: 200;
+}
+
+/* Partner Card */
+.partner-card {
+    text-align: center;
+    color: white;
+}
+.partner-card > div {
+    border-radius: 5px;
+    background-size: cover;
+    padding: 1rem;
+}
+.partner-card h4::before {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.25rem;
+}
+.partner-title {
+    font-size: 5em;
+}
+
+/* Social Card */
+.social-card {
+    text-align: center;
+    color: white;
+}
+.social-card > div {
+    border-radius: 5px;
+    background-size: cover;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.social-card h5 {
+    margin-bottom: 0px;
+}
+.social-title {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+/* Bans */
+#bans {
+    background-color: white;
+    border-radius: 0.65rem;
+    color: #333333;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.13);
+    overflow: hidden;
+}
+#bans th {
+    font-weight: 400;
+    border-top: none;
+    border-bottom-width: 5px;
+    border-bottom-color:  #333333;
+}
+#bans img {
+    height: 25px;
+}
+.banUsername {
+    display: inline;
+    font-weight: 600;
+    color: #db4040;
+}
+
+/* Download Cards */
+.download-card {
+    height: 100%;
+}
+.download-card > a {
+    background-color: #3BBE54;
+    color: white !important;
+}
+.download-card > a:hover {
+    color: white !important;
+    background-color: #47d060;
+}
+.download-card > .btn-group > a {
+    background-color: #3BBE54;
+    color: white;
+}
+.download-card > .btn-group > a:hover {
+    color: white;
+    background-color: #47d060;
+}
+.download-card > .btn-group > a:first-child {
+    border-right: 1.25px #ffffff47 solid;
+}
+.download-card > .btn-group > a:last-child {
+    border-left: 1.25px #ffffff47 solid;
+}
+
+#lc-discord {
+    height: 500px;
+    width: 100%;
+}
+
+textarea#description {
+    min-height: 50px;
+}
+
+.more-bans {
+    font-weight: unset;
+    font-size: x-small;
+}
+
+.tooltip-inner > ul {
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.post-content img {
+    max-width: 100%;
+}
+
+.content-container {
+    min-height: calc(100vh - 121px);
+}
+
+.header-content {
+    color: white;
+    text-align: center;
+}
+
+.header-content > h5 {
+    font-weight: 200;
+}
+
+/* Patch Notes */
+.patch-note-card .title-container {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.patch-note-card .title-container > img {
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
+    border-radius: 7.5px;
+}
+
+.patch-note-card .title-container > div > h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.patch-note-card .title-container > div > h2 {
+    font-weight: 300;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.patch-note-card .btn-info {
+    width: 100px;
+    padding: 0px;
+}
