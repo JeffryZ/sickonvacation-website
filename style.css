@@ -72,7 +72,7 @@ footer {
 }
 .footer-contents {
     color: white;
-    opacity: 0.2;
+    opacity: 0.7;
 }
 h1 {
     font-weight: 100;
@@ -241,6 +241,7 @@ a {
 #footer-right div {
     text-align: right;
 }
+
 #nav_links a:hover {
     background-color: #262626;
 }
